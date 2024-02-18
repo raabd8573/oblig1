@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bestilling av kinobiletter</title>
+    <script src="oblig1.js"></script>
+</head>
+<body>
+<h1>Bestilling av kinobiletter</h1>
+<table>
+    <tr>
+        <td>
+            <label for="film">Velg film:</label>
+        </td>
+        <td>
+            <select id="film">
+                <option>Velg film her</option>
+                <option>Oppenheimer</option>
+                <option>Argylle</option>
+                <option>Dune Part Two</option>
+                <option>Konvoi</option>
+            </select>
+            <span id="feilmeldingFilm" style="color: red;"></span>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="antall">Antall</label>
+        </td>
+        <td>
+            <input type="text" style="width: 25px" id="antall"/>
+            <span id="feilmeldingAntall" style="color: red;"></span>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="fornavn">Fornavn</label>
+        </td>
+        <td>
+            <input type="text" id="fornavn"/>
+            <span id="feilmeldingFornavn" style="color: red;"></span>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="etternavn">Etternavn</label>
+        </td>
+        <td>
+            <input type="text" id="etternavn"/>
+            <span id="feilmeldingEtternavn" style="color: red;"></span>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="telefonnr">Telefonnr</label>
+        </td>
+        <td>
+            <input type="text" id="telefonnr"/>
+            <span id="feilmeldingTelefonnr" style="color: red;"></span>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="epost">Epost</label>
+        </td>
+        <td>
+            <input type="text" id="epost"/>
+            <span id="feilmeldingEpost" style="color: red;"></span>
+        </td>
+    </tr>
+</table>
+<br>
+<button id="billett" onclick="addToArray()">Kjøp Billett</button>
+<span id="feilmeldingKjop" style="color: red;"></span>
+<h2>Alle billetter</h2>
+<div id="billettListe"></div>
+<button id="slett" onclick="deleteTickets()">Slett alle billetter</button>
+</body>
+</html>
