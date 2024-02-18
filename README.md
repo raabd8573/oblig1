@@ -10,7 +10,7 @@ Fullt navn: Rayana Ahmed Abdirahman
 
 Kort beskrivelse av applikasjon:
 
-En applikasjon hvor man kkan bestille billetter til en film.
+En applikasjon hvor man kan bestille billetter til en film.
 Brukeren kan velge en film fra listen og antall billetter, derretter så fyller de inn
 informasjon om seg selv (navn, telefonnr, epost). Brukeren kan da kjøpe billetten og den lagres som et objekt i en array.
 Det er også mulig å slette alle billetter. 
