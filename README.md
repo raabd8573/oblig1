@@ -1,12 +1,8 @@
 Oblig 1 DATA 1700 V23
 
-OsloMet brukernavn: raabd8573
-
 Github brukernavn: raabd8573
 
 Github repo URL: https://github.com/raabd8573/oblig1-DATA1700-raabd8573
-
-Fullt navn: Rayana Ahmed Abdirahman
 
 Kort beskrivelse av applikasjon:
 
